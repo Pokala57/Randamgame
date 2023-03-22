@@ -1,0 +1,74 @@
+/* Set the height of the navbar */
+.navbar {
+  height: 80px;
+  width: 100%;
+  border: 2px;
+}
+
+/* Set the padding on the navbar links */
+.navbar-nav .nav-link {
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+/* Set the color and hover color of the navbar links */
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:hover {
+  color: #222;
+}
+
+/* Set the active link color */
+.navbar-nav .nav-link.active {
+  color: #ff5722;
+}
+
+/* Set the style of the logo */
+.food-munch-logo {
+  height: 60px;
+}
+
+/* Set the style of the navbar toggler */
+.navbar-toggler {
+  border: none;
+}
+
+/* Set the background color and border radius of the collapsed navbar */
+.navbar-collapse {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Set the padding and margin of the collapsed navbar */
+.navbar-collapse .navbar-nav {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+/* Set the style of the active navbar link indicator */
+.navbar-nav .active:after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #ff5722;
+  margin: auto;
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+/* Set the style of the navbar brand */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+/* Set the style of the navbar brand text */
+.navbar-brand span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Set the style of the navbar brand icon */
+.navbar-brand img {
+  height: 40px;
+}
