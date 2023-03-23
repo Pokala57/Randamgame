@@ -3,6 +3,8 @@
   height: 80px;
   width: 100%;
   border: 2px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Set the padding on the navbar links */
@@ -19,7 +21,6 @@
 
 /* Set the active link color */
 .navbar-nav .nav-link.active {
-  color: #ff5722;
 }
 
 /* Set the style of the logo */
@@ -58,6 +59,7 @@
 /* Set the style of the navbar brand */
 .navbar-brand {
   display: flex;
+
   align-items: center;
 }
 

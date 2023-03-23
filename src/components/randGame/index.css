@@ -1,23 +1,16 @@
 .RandomPicker {
-  border: 2px solid black;
   text-align: center;
   margin-top: 100px;
 }
 
 .RandomPicker__choice {
-  border: 2px solid red;
   margin: 20px;
   font-size: 40px;
   font-family: Helvetica;
   font-weight: bold;
 }
 
-.RandomPicker__choiceItem {
-  border: 2px solid green;
-}
-
 .RandomPicker__controls {
-  border: 2px solid yellow;
   margin: 10px;
   padding: 10px;
 }
@@ -104,4 +97,64 @@
 
 .RandomPicker__button:hover {
   background-color: #222;
+}
+
+.maincont {
+  margin-top: 100px;
+}
+
+.error {
+  color: #f33a3a;
+}
+
+.gamecon {
+  text-align: center;
+}
+
+.game-rules-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rules-list,
+.instructions-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.rule-item,
+.instruction-item {
+  margin-bottom: 10px;
+}
+
+.section-heading {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .rules-list,
+  .instructions-list {
+    font-size: 16px;
+  }
+}
+
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

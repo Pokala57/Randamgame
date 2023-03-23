@@ -41,6 +41,9 @@ class UserInput extends Component {
     const localdetails = localStorage.getItem('desition_list')
     if (localdetails === null) {
       localStorage.setItem('desition_list', JSON.stringify(inputlist))
+    } else {
+      localStorage.removeItem('desition_list')
+      localStorage.setItem('desition_list', JSON.stringify(inputlist))
     }
   }
 
@@ -55,7 +58,7 @@ class UserInput extends Component {
               <div className="col-12">
                 <h1 className="todos-heading">Enter your decisions</h1>
                 <h1 className="create-task-heading">
-                  Create{' '}
+                  Create
                   <span className="create-task-heading-subpart">Task</span>
                 </h1>
                 <input

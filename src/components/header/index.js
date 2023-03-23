@@ -4,11 +4,11 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="www.com">
+        <a className="navbar-brand" href="#Home" id="navItem1">
           <img
-            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_b50exMThYi6lbJX6RCRxJfQ4i_h4Xa_AYGFcsyuyKjw4PRaecaqPENuf6F2z-zqHUY&usqp=CAU"
             className="food-munch-logo"
-            alt="helo"
+            alt="randomgame"
           />
         </a>
         <button
@@ -24,22 +24,18 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ml-auto">
-            <a className="nav-link active" id="navItem1" href="#wcuSection">
-              Why Choose Us?
+            <a className="nav-link active" id="navItem1" href="#Whatisthegame">
+              What is the game?
               <span className="sr-only">(current)</span>
             </a>
-            <a className="nav-link" href="#exploreMenuSection" id="navItem2">
-              Explore Menu
+            <a className="nav-link" href="#GameRules" id="navItem2">
+              Game Rules
             </a>
-            <a
-              className="nav-link"
-              href="#deliveryPaymentSection"
-              id="navItem3"
-            >
-              Delivery & Payment
+            <a className="nav-link" href="#Instructions" id="navItem3">
+              Instructions
             </a>
-            <a className="nav-link" href="#followUsSection" id="navItem4">
-              Follow Us
+            <a className="nav-link" href="#contacts" id="navItem4">
+              contacts
             </a>
           </div>
         </div>

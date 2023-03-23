@@ -1,0 +1,23 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.butdel {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-img {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}
+
+.delete-img:hover {
+  filter: brightness(0.5);
+}
